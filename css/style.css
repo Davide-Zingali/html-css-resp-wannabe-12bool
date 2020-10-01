@@ -5,17 +5,17 @@
 }
 /* debug */
 body {
-  background-color: red;
-  height: 500px;
+  /* background-color: red;
+  height: 500px; */
 }
 .row {
-  background-color: green;
-  min-height: 80px;
+  /* background-color: green;
+  min-height: 80px; */
 }
 [class*="col-"] {
-  background-color: lightgreen;
+  /* background-color: lightgreen;
   min-height: 100px;
-  border: 1px solid black;
+  border: 1px solid black; */
 }
 /* ---------------------------- */
 /* aggiunta css originale */
@@ -39,7 +39,7 @@ img {
   /* per centrare orizzontalmente */
   /* display: block; */
   max-width: 100%;
-  height: auto;
+  max-height: 200px;
   /* margin-right: auto;
   margin-left: auto; */
 }
@@ -61,9 +61,7 @@ img {
   text-align: center;
 } */
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
+#why div {
   /* width: 100%; */
   margin-top: 80px;
 }
