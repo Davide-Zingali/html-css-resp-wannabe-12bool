@@ -52,11 +52,17 @@ img {
   .spazio-box {
     margin-bottom: 50px;
   }
+  .row {
+    margin-top: 0;
+  }
 }
 
 /* versione tablet */
 @media all and (min-width: 769px) and (max-width: 992px) {
   .spazio-box {
     margin-bottom: 30px;
+  }
+  .row {
+    margin-top: 50px;
   }
 }
