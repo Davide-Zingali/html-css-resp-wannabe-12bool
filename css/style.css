@@ -1,68 +1,38 @@
+/* Regole generali */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* debug */
-body {
-  /* background-color: red;
-  height: 500px; */
+
+/* regole selettive */
+h1 {
+  margin: 20px 0;
 }
-.row {
-  /* background-color: green;
-  min-height: 80px; */
+
+h3 {
+  margin: 15px 0;
 }
-[class*="col-"] {
-  /* background-color: lightgreen;
-  min-height: 100px;
-  border: 1px solid black; */
+
+hr {
+  margin-top: 10px;
 }
-/* ---------------------------- */
-/* aggiunta css originale */
+
+img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.row div {
+  padding: 0 10px;
+}
 
 .row {
-  /* width: 992px; */
-  /* margin-left: auto;
-  margin-right: auto; */
   margin-top: 100px;
   text-align: center;
 }
 
-/* BLOCCO LEZIONI */
-/* #lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
-} */
-
-img {
-  /* per centrare orizzontalmente */
-  /* display: block; */
-  max-width: 100%;
-  max-height: 200px;
-  /* margin-right: auto;
-  margin-left: auto; */
-}
-
-/* BLOCCO STEPS */
-/* #steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
-} */
-
-/* #steps {
-  text-align: center;
-} */
-
-/* BLOCCO PERCHE */
-/* #why {
-  text-align: center;
-} */
-
 #why div {
-  /* width: 100%; */
   margin-top: 80px;
 }
 
@@ -72,21 +42,21 @@ img {
   padding: 30px
 }
 
-/* COMMON */
-/* .row::after {
-  content: '';
-  display: table;
-  clear: both;
-} */
-
 .grey {
   background-color: #f9f9f9;
 }
 
-/* img {
-  height: 200px;
-} */
+/* media query */
+/* versione smartphone */
+@media all and (max-width: 768px) {
+  .spazio-box {
+    margin-bottom: 50px;
+  }
+}
 
-/* .clear {
-  clear: both;
-} */
+/* versione tablet */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .spazio-box {
+    margin-bottom: 30px;
+  }
+}
